@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '4.1.0',
-    'version' => '4.1.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '78cafd4dc9ab224ba8fb4b445daf7855d75679d3',
     'name' => 'slim/slim-skeleton',
   ),
   'versions' => 
@@ -28,6 +28,33 @@
       array (
       ),
       'reference' => '9d94dc0154230ac39e5bf89398b324a86f63f765',
+    ),
+    'guzzlehttp/guzzle' => 
+    array (
+      'pretty_version' => '7.2.0',
+      'version' => '7.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0aa74dfb41ae110835923ef10a9d803a22d50e79',
+    ),
+    'guzzlehttp/promises' => 
+    array (
+      'pretty_version' => '1.4.0',
+      'version' => '1.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '60d379c243457e073cff02bc323a2a86cb355631',
+    ),
+    'guzzlehttp/psr7' => 
+    array (
+      'pretty_version' => '1.7.0',
+      'version' => '1.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '53330f47520498c0ae1f61f7e2c90f55690c06a3',
     ),
     'monolog/monolog' => 
     array (
@@ -218,6 +245,22 @@
       'provided' => 
       array (
         0 => '^1.0',
+      ),
+    ),
+    'psr/http-client' => 
+    array (
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2dfb5f6c5eff0e91e20e913f8c5452ed95b86621',
+    ),
+    'psr/http-client-implementation' => 
+    array (
+      'provided' => 
+      array (
+        0 => '1.0',
       ),
     ),
     'psr/http-factory' => 
@@ -423,12 +466,12 @@
     ),
     'slim/slim-skeleton' => 
     array (
-      'pretty_version' => '4.1.0',
-      'version' => '4.1.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '78cafd4dc9ab224ba8fb4b445daf7855d75679d3',
     ),
     'symfony/polyfill-ctype' => 
     array (
