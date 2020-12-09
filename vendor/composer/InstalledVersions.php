@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '78cafd4dc9ab224ba8fb4b445daf7855d75679d3',
+    'reference' => '00aa98f2f2c062a8d9a1a6cebf013cdb294e5a71',
     'name' => 'slim/slim-skeleton',
   ),
   'versions' => 
@@ -484,7 +484,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '78cafd4dc9ab224ba8fb4b445daf7855d75679d3',
+      'reference' => '00aa98f2f2c062a8d9a1a6cebf013cdb294e5a71',
     ),
     'symfony/polyfill-ctype' => 
     array (

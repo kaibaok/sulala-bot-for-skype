@@ -16,7 +16,7 @@ class HomeController
      */
     protected $logger;
 
-    private $token = "Bearer xoxb-1563412321988-1557488026931-K8y2MYGAG2iHnXECdusa42K6";
+    private $token = "xoxb-1563412321988-1560979488099-NXLqYMQyrFG8CpPqi7y4Yfw4";
     
     private $endPoint = "https://slack.com/api";
     
@@ -25,7 +25,6 @@ class HomeController
         "conversations" => "conversations.list"
         
     ];
-
     
     // constructor receives container instance
     public function __construct(ContainerInterface $container, LoggerInterface $logger)
@@ -41,14 +40,14 @@ class HomeController
         
         $this->logger->info(var_export($listChannel,true));
         // $json = json_encode(['asdasd'=> 'asdasd'], JSON_PRETTY_PRINT);
-        // $response->getBody()->write($json);
+        $response->getBody()->write($listChannel);
         return $response->withAddedHeader('Content-Type', 'application/json');
     }
     
     protected function getConversations() {
         $client = new Client([
             'headers' => [
-                'Authorization' => $this->token,
+                'Authorization' => "Bearer ".$this->token,
                  'Accept'     => 'application/json',
             ],
             'verify' => false
