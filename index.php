@@ -1,8 +1,8 @@
 <?php 
 
 require("vendor/autoload.php");
-use GuzzleHttp\Client;
 
+use GuzzleHttp\Client;
 
 $username = "Sulala Bot";
 $icon = ":ghost:";
@@ -19,3 +19,6 @@ if($_POST) {
     ]]);
 
 }
+
+
+
