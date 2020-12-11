@@ -14,9 +14,9 @@ if($_POST) {
     // $userPostMessage = $_POST['username'];
     $client = new Client(['verify' => false]);
 
-    $res = $client->request("POST", $hook, ["form_params" => [
-        "payload" =>  json_encode(["text" => "bot reply" . $message])
-    ]]);
+    // $res = $client->request("POST", $hook, ["form_params" => [
+    //     "payload" =>  json_encode(["text" => "bot reply" . $message])
+    // ]]);
 
 }
 
