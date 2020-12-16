@@ -1,5 +1,8 @@
 {
     "require": {
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^7.0",
+        "doctrine/dbal": "^3.0",
+        "botman/botman": "^2.6",
+        "botman/driver-web": "^1.5"
     }
 }
